@@ -1,0 +1,8 @@
+{
+  "name": "Íkaro — Gastronomía Peruana e Internacional",
+  "description": "Carta digital trilingüe (ES / EN / PT) de Íkaro en Av. Valparaíso 425, Galería Saleh, Viña del Mar. Cocina peruana marina y criolla, chifa, nikkei, pastas, piqueos y coctelería.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
