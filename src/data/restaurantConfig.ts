@@ -10,18 +10,18 @@ export const RESTAURANT_CONFIG = {
   address: 'Av. Valparaíso 425, Galería Saleh',
   cityRegion: 'Viña del Mar, Región de Valparaíso, Chile',
   hoursShort: {
-    es: 'Lun–Jue 12:30–20:00 · Vie–Sáb 12:30–00:00 · Dom 12:30–19:00',
-    en: 'Mon–Thu 12:30–20:00 · Fri–Sat 12:30–00:00 · Sun 12:30–19:00',
-    pt: 'Seg–Qui 12:30–20:00 · Sex–Sáb 12:30–00:00 · Dom 12:30–19:00',
+    es: 'Lun–Jue 12:30–22:00 · Vie–Dom 12:30–23:45',
+    en: 'Mon–Thu 12:30–22:00 · Fri–Sun 12:30–23:45',
+    pt: 'Seg–Qui 12:30–22:00 · Sex–Dom 12:30–23:45',
   },
   scheduleRows: [
     {
       days: { es: 'Lunes a jueves', en: 'Monday to Thursday', pt: 'Segunda a quinta' },
-      hours: '12:30 – 20:00',
+      hours: '12:30 – 22:00',
     },
     {
-      days: { es: 'Viernes y sábado', en: 'Friday & Saturday', pt: 'Sexta e sábado' },
-      hours: '12:30 – 00:00',
+      days: { es: 'Viernes a Domingo', en: 'Friday & Sunday', pt: 'Sexta e Domingo' },
+      hours: '12:30 – 23:45',
     },
     {
       days: { es: 'Domingo', en: 'Sunday', pt: 'Domingo' },
